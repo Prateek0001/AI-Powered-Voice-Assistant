@@ -1,16 +1,28 @@
-# voice_assistance
+# 🎙️ AI-Powered Voice Assistant  
 
-A new Flutter project.
+An intelligent **voice-based assistant** built with **Flutter** that integrates **speech-to-text, text-to-speech, and Gemini 2.5 Pro** to provide conversational and generative AI capabilities.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features  
+- 🎤 **Voice Input**: Converts spoken user input into text using Speech-to-Text.  
+- 🤖 **Intent Detection**: Uses **Gemini 2.5 Pro** to determine whether the user wants to:  
+  - Generate an **image**.  
+  - Get a **text-based response**.  
+- 🖼️ **Image Generation**: Sends prompts to Gemini’s image generation model and previews results inside the app.  
+- 💬 **Text Generation**: Produces natural language answers using Gemini’s text generation model.  
+- 🔊 **Voice Output**: Speaks responses back to the user with Text-to-Speech.  
+- 📝 **Context-Aware Conversations**: Stores all messages for continuous dialogue flow.  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack  
+- **Framework**: Flutter  
+- **Languages**: Dart  
+- **APIs/Models**: Gemini 2.5 Pro, Gemini Image Generation  
+- **Plugins**:  
+  - `speech_to_text` (Speech recognition)  
+  - `flutter_tts` (Text-to-Speech)  
+  - `http` / `dio` (API integration)  
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
