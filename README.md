@@ -23,6 +23,6 @@ An intelligent **voice-based assistant** built with **Flutter** that integrates 
 - **Plugins**:  
   - `speech_to_text` (Speech recognition)  
   - `flutter_tts` (Text-to-Speech)  
-  - `http` / `dio` (API integration)  
+  - `http` (API integration)  
 ---
 
